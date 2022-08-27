@@ -1,0 +1,72 @@
+    1  echo $shell
+    2  echo $SHELL
+    3  python3
+    4  whoami
+    5  date
+    6  pwd
+    7  end
+    8  env
+    9  export color= blue
+   10  echo $color
+   11  export color=blue
+   12  echo $color
+   13  env
+   14  echo $PASS
+   15  echo $PATH
+   16  which python
+   17  ls /usr/bin
+   18  which ruby
+   19  ls .
+   20  ls repos
+   21  ls ..
+   22  ls ../lost+found
+   23  ls ../..
+   24  ls ..
+   25  ls .
+   26  cd repos
+   27  ls .
+   28  ls ../
+   29  cd ..
+   30  ls .
+   31  ls ..
+   32  cd ..
+   33  cd ../home
+   34  ls
+   35  ls .
+   36  cd ..
+   37  ls
+   38  cd home
+   39  ls
+   40  cd user
+   41  cd ksmit294/
+   42  ls
+   43  cd repos/
+   44  ls
+   45  python helloworld.py
+   46  mkvir dir  
+   47  mkdir intro_python_class1
+   48  ls .
+   49  mv helloworld.py intro_python_class1/
+   50  ls .
+   51  cd intro_python_class1/
+   52  ls
+   53  git init
+   54  git status
+   55  git add helloworld.py 
+   56  git status
+   57  git log
+   58  git commit -m "first commit"
+   59  git config --global user.email "ksmit294@vols.utk.edu"
+   60  git config --global user.name "kamari"
+   61  git commit -m "first commit"
+   62  git log
+   63  git status
+   64  ssh-keygen
+   65  cat /home/ksmit294/.ssh/id_rsa.pub
+   66  git remote add origin git@github.com:kasinokam999/intro_python_class1.git
+   67  git branch -M main
+   68  git push -u origin main
+   69  git pull
+   70  git log
+   71  history
+   72  history > history.txt
